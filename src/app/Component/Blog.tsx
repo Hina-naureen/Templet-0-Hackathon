@@ -151,12 +151,11 @@ const HomePage: React.FC = () => {
         <Image
           src="/instagram.png"
           alt="insta"
-          layout="fill" 
-          objectFit="cover" 
+          fill
           className="object-cover"
         />
         
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-[#000000]px-4">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-[#000000] px-4">
           <h1 className="text-[24px] md:text-[36px] font-bold">Our Instagram</h1>
           <p className="opacity-[0.8] max-w-[600px] text-[16px] md:text-[18px] mt-2">
             Follow our store on Instagram

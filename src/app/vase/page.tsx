@@ -18,10 +18,10 @@ const Vase = () => {
         }}
       >
         <Image
-          src="/shop.png" 
+          src="/shop.png"
           alt="Vase Background"
-          layout="fill"
-          objectFit="cover"
+          fill
+          className="object-cover"
         />
       </div>
 
@@ -37,9 +37,8 @@ const Vase = () => {
         }}
       >
         <Image
-          src="/Meubel House_Logos-05.png" 
+          src="/Meubel House_Logos-05.png"
           alt="Module Image"
-          layout="intrinsic"
           width={77}
           height={77}
         />
@@ -94,9 +93,8 @@ const Vase = () => {
         }}
       >
         <Image
-          src="/Vector.png" 
+          src="/Vector.png"
           alt="Vector Image"
-          layout="intrinsic"
           width={14}
           height={8}
         />

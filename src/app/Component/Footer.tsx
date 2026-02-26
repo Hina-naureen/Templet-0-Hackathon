@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-gray-500 text-sm font-medium mb-3">Newsletter</h3>
                         <div className="flex items-center">
-                            <input type="email" placeholder="Enter Your Email Address" className="flex-1 px-4 py-2 border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-gray-400" />
+                            <input type="email" placeholder="Enter Your Email Address" className="flex-1 px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-gray-400" />
                             <button className="bg-black text-white px-4 py-2 rounded-r-md hover:bg-gray-800 transition">Subscribe</button>
                         </div>
                     </div>
